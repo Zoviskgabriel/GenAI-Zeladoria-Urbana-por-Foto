@@ -12,7 +12,7 @@ python zela_bigdata\dags\zela_pipeline.py --fonte zela_bigdata\exemplos\reports_
 
 O conjunto é sintético e vem marcado como `source=demo`. A execução gera o banco analítico e arquivos CSV/JSON na pasta indicada. Evidência gerada nesta cópia: [execucao_pipeline_local.log](zela_bigdata/evidencias/execucao_pipeline_local.log).
 
-Para executar a suíte incluída no pacote: `python -m pip install -r requirements-test.txt` e depois `python -m pytest zela_bigdata/tests -q`.
+Para executar a suíte incluída no pacote: `python -m pip install -r requirements-test.txt` e depois `python -m pytest zela_bigdata/tests -q`. Resultado verificado nesta cópia em 10/11/2026: 8 testes passaram.
 
 ## Executar Airflow sobre o banco do MVP
 

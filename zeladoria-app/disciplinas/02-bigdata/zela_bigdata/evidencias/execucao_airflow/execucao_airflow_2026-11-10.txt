@@ -8,3 +8,4 @@ Tarefas: extrair=success; validar=success; agregar=success; carregar=success
 Indicadores: 40 lidos; 40 validos; 0 rejeitados; 40 marcados como demo
 Evidencias: log de cada tarefa e arquivos CSV/JSON gerados nesta pasta.
 Observacao: o banco SQLite analitico foi gerado em saida/ e nao foi incluido no pacote.
+Suíte pytest: 8 passed em 0,09 s (10/11/2026).
