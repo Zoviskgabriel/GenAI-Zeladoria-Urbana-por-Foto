@@ -1,0 +1,41 @@
+id,created_at,location,latitude,longitude,description,category,status,source,cv_label,cv_confidence,cv_model,cv_reviewed,service_order
+2,2026-10-22 04:06:15.743034,Praça da Matriz (lado da banca),,,[demonstração] buraco com água acumulada,dano_na_pista,em_triagem,demo,dano_na_pista,0.412,demo-simulado,1,
+3,2026-11-03 21:11:21.802008,"Av. Central, 1500 (faixa de pedestres)",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,encaminhado,demo,dano_na_pista,0.837,demo-simulado,1,OS-DEMO-0002
+4,2026-10-22 14:32:37.352431,"Travessa do Mercado, 45",,,[demonstração] buraco com água acumulada,dano_na_pista,encaminhado,demo,dano_na_pista,0.733,demo-simulado,1,OS-DEMO-0003
+5,2026-10-07 03:47:20.477765,Praça da Matriz (lado da banca),,,[demonstração] asfalto rachado,dano_na_pista,em_triagem,demo,dano_na_pista,0.497,demo-simulado,1,
+6,2026-11-06 06:28:08.734692,"Alameda dos Ipês, 77",,,[demonstração] placa de trânsito caída,outro,recebido,demo,sem_deteccao,0.0,demo-simulado,0,
+7,2026-09-29 03:09:50.534840,"Travessa do Mercado, 45",,,[demonstração] buraco perto da guia,dano_na_pista,em_triagem,demo,dano_na_pista,0.635,demo-simulado,1,
+8,2026-10-26 00:50:16.172692,"Travessa do Mercado, 45",,,[demonstração] poste apagado,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0007
+9,2026-10-25 03:51:23.196339,"Alameda dos Ipês, 77",,,[demonstração] asfalto rachado,dano_na_pista,encaminhado,demo,dano_na_pista,0.613,demo-simulado,1,OS-DEMO-0008
+10,2026-10-05 17:20:43.487200,"Rua Projetada 2, esquina com a Av. Central",,,[demonstração] asfalto rachado,dano_na_pista,descartado,demo,dano_na_pista,0.492,demo-simulado,1,
+11,2026-11-02 19:08:50.880461,Praça da Matriz (lado da banca),,,[demonstração] buraco perto da guia,dano_na_pista,encaminhado,demo,dano_na_pista,0.64,demo-simulado,1,OS-DEMO-0010
+12,2026-10-16 17:39:39.353366,"Rua do Campus, portão 2",,,[demonstração] entulho na calçada,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0011
+13,2026-10-18 12:16:37.584527,"Travessa do Mercado, 45",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,encaminhado,demo,dano_na_pista,0.511,demo-simulado,1,OS-DEMO-0012
+14,2026-10-02 13:04:52.235570,"Rua das Acácias, 310",,,[demonstração] buraco com água acumulada,dano_na_pista,recebido,demo,dano_na_pista,0.899,demo-simulado,1,
+15,2026-10-22 22:51:39.443519,"Rua das Acácias, 120 (em frente à escola)",,,[demonstração] asfalto rachado,dano_na_pista,recebido,demo,dano_na_pista,0.6,demo-simulado,1,
+16,2026-10-06 06:02:12.244940,"Alameda dos Ipês, 77",,,[demonstração] bueiro entupido,bueiro,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0015
+17,2026-10-22 13:40:51.337810,"Rua do Campus, estacionamento",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,recebido,demo,dano_na_pista,0.837,demo-simulado,1,
+18,2026-10-21 06:48:44.060364,"Rua do Campus, estacionamento",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,em_triagem,demo,dano_na_pista,0.457,demo-simulado,1,
+19,2026-10-23 12:54:20.658854,"Alameda dos Ipês, 77",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,em_triagem,demo,dano_na_pista,0.544,demo-simulado,1,
+20,2026-10-18 11:00:02.669968,"Rua do Campus, estacionamento",,,[demonstração] entulho na calçada,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0019
+21,2026-10-19 03:03:05.096362,"Av. Central, 900 (ponto de ônibus)",,,[demonstração] buraco com água acumulada,dano_na_pista,encaminhado,demo,dano_na_pista,0.425,demo-simulado,1,OS-DEMO-0020
+22,2026-10-30 09:27:48.828529,"Rua Projetada 2, esquina com a Av. Central",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,encaminhado,demo,dano_na_pista,0.556,demo-simulado,1,OS-DEMO-0021
+23,2026-10-17 17:27:26.923480,"Rua das Acácias, 310",,,[demonstração] buraco com água acumulada,dano_na_pista,encaminhado,demo,dano_na_pista,0.92,demo-simulado,1,OS-DEMO-0022
+24,2026-10-01 15:47:34.113286,"Rua das Acácias, 310",,,[demonstração] entulho na calçada,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0023
+25,2026-10-26 07:30:49.185234,"Av. Central, 900 (ponto de ônibus)",,,[demonstração] boca de lobo sem grade,bueiro,em_triagem,demo,sem_deteccao,0.0,demo-simulado,1,
+26,2026-10-09 07:02:15.196708,"Travessa do Mercado, 45",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,recebido,demo,dano_na_pista,0.677,demo-simulado,0,
+27,2026-10-07 15:48:19.804001,"Rua do Campus, portão 2",,,[demonstração] asfalto rachado,dano_na_pista,em_triagem,demo,dano_na_pista,0.859,demo-simulado,1,
+28,2026-11-05 23:16:31.848299,"Alameda dos Ipês, 77",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,em_triagem,demo,dano_na_pista,0.816,demo-simulado,1,
+29,2026-10-12 05:05:30.647350,"Av. Central, 900 (ponto de ônibus)",,,[demonstração] boca de lobo sem grade,bueiro,em_triagem,demo,sem_deteccao,0.0,demo-simulado,1,
+30,2026-10-11 21:05:40.222799,"Rua do Campus, estacionamento",,,[demonstração] calçada quebrada perto da rampa,calcada,recebido,demo,sem_deteccao,0.0,demo-simulado,1,
+31,2026-10-07 01:02:35.984637,"Alameda dos Ipês, 77",,,[demonstração] buraco com água acumulada,dano_na_pista,encaminhado,demo,dano_na_pista,0.414,demo-simulado,1,OS-DEMO-0030
+32,2026-10-07 23:59:35.441472,"Alameda dos Ipês, 77",,,[demonstração] buraco perto da guia,dano_na_pista,em_triagem,demo,dano_na_pista,0.648,demo-simulado,1,
+33,2026-10-07 09:25:38.624775,"Rua do Campus, portão 2",,,[demonstração] poste apagado,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0032
+34,2026-10-01 00:38:45.584026,Praça da Matriz (lado da banca),,,[demonstração] buraco com água acumulada,dano_na_pista,recebido,demo,dano_na_pista,0.685,demo-simulado,1,
+35,2026-09-27 00:57:58.537739,Praça da Matriz (lado da banca),,,[demonstração] buraco com água acumulada,dano_na_pista,encaminhado,demo,dano_na_pista,0.83,demo-simulado,1,OS-DEMO-0034
+36,2026-10-05 04:06:37.231083,"Travessa do Mercado, 45",,,[demonstração] poste apagado,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0035
+37,2026-10-09 16:44:08.206705,"Rua das Acácias, 120 (em frente à escola)",,,[demonstração] piso solto na calçada,calcada,recebido,demo,sem_deteccao,0.0,demo-simulado,1,
+38,2026-10-31 09:00:17.652323,"Rua do Campus, estacionamento",,,[demonstração] calçada quebrada perto da rampa,calcada,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0037
+39,2026-09-29 22:28:51.813573,"Av. Central, 1500 (faixa de pedestres)",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,em_triagem,demo,dano_na_pista,0.458,demo-simulado,1,
+40,2026-10-01 05:50:16.695112,"Rua das Acácias, 120 (em frente à escola)",,,[demonstração] asfalto rachado,dano_na_pista,em_triagem,demo,dano_na_pista,0.619,demo-simulado,1,
+41,2026-09-27 08:32:49.426351,"Rua das Acácias, 120 (em frente à escola)",,,[demonstração] buraco grande na faixa da direita,dano_na_pista,encaminhado,demo,sem_deteccao,0.0,demo-simulado,1,OS-DEMO-0040

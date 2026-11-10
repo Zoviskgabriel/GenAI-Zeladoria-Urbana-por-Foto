@@ -1,0 +1,2 @@
+# Dependência de desenvolvimento para executar a suíte de testes.
+pytest>=8,<10
