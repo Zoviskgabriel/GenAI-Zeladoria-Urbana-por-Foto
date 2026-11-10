@@ -35,6 +35,6 @@ Para repetir a evidência com os dados sintéticos, no PowerShell defina `$env:Z
 
 ## Evidências e estado da entrega
 
-Os logs recebidos em `zela_bigdata/evidencias/` vieram no pacote do Joseh. A execução local e a execução via Airflow foram feitas nesta cópia com o CSV sintético. O run `manual__entrega_bigdata_20261110` terminou em `success`; as quatro tarefas `extrair`, `validar`, `agregar` e `carregar` também terminaram em `success`. Os logs de cada tarefa e as saídas CSV/JSON estão em `zela_bigdata/evidencias/execucao_airflow/`. A captura da interface Airflow (Graph View) ainda precisa ser anexada após login em `http://localhost:8080`.
+Os logs recebidos em `zela_bigdata/evidencias/` vieram no pacote do Joseh. A execução local e a execução via Airflow foram feitas nesta cópia com o CSV sintético. O run `manual__entrega_bigdata_20261110` terminou em `success`; as quatro tarefas `extrair`, `validar`, `agregar` e `carregar` também terminaram em `success`. Os logs de cada tarefa e as saídas CSV/JSON estão em `zela_bigdata/evidencias/execucao_airflow/`. A captura da interface Airflow (Graph View) está incluída em `zela_bigdata/evidencias/execucao_airflow/airflow_graph_view_2026-11-10.png` e também na página 5 do PDF técnico.
 
 O PDF de entrega técnica está em `../../../output/pdf/Entrega_Big_Data_Zeladoria.pdf` a partir desta pasta.

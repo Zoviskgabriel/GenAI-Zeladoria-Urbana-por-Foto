@@ -30,7 +30,7 @@ Campos reservados para visão computacional: `cv_label`, `cv_confidence`, `cv_mo
 
 ## 2. Big Data Architecture & Data Integration
 
-**Status:** a implementação canônica é o pacote `zela_bigdata` enviado pelo Joseh e integrado em `disciplinas/02-bigdata/zela_bigdata/` sem alteração dos arquivos originais. O app foi alinhado ao contrato e há um Compose de integração que aponta para `data/zeladoria.db`. O pipeline Python local foi executado com 40 registros sintéticos. A captura visual da UI Airflow e a URL pública do repositório ainda faltam; os logs recebidos no ZIP são evidências fornecidas pelo colega, não uma execução visual feita nesta máquina.
+**Status:** a implementação canônica é o pacote `zela_bigdata` enviado pelo Joseh e integrado em `disciplinas/02-bigdata/zela_bigdata/` sem alteração dos arquivos originais. O app foi alinhado ao contrato e há um Compose de integração que aponta para `data/zeladoria.db`. O pipeline Python local passou nos testes; a DAG Airflow 2.10.5 foi executada com dados sintéticos, as quatro tarefas terminaram com sucesso e a captura da Graph View foi incluída no PDF e no pacote de evidências. Repositório público: https://github.com/Zoviskgabriel/GenAI-Zeladoria-Urbana-por-Foto.
 
 **Componente:** DAG Airflow que transforma relatos brutos em tabelas analíticas para o piloto.
 
@@ -101,8 +101,8 @@ Campos reservados para visão computacional: `cv_label`, `cv_confidence`, `cv_mo
 - [x] Integrado o pacote Big Data do Joseh sem editar os arquivos originais; criado Compose local adaptado à estrutura do app.
 - [x] Alinhado o app ao contrato comum: `id` inteiro/`report_id`, categorias, status, origem e campos opcionais; token de confirmação excluído da API.
 - [x] Executado o pipeline Python com CSV demo (40 válidos, 0 rejeitados) e registrados banco/CSVs/JSON de saída.
-- [ ] Capturar a execução da DAG na UI Airflow em um ambiente com Docker e revisar conexão real com SQLite/API; esta máquina não tem Docker instalado.
-- [ ] Publicar repositório e incluir evidências próprias da equipe.
+- [x] Executar a DAG na UI Airflow via Docker Compose com CSV sintético; captura e logs registrados. A conexão com SQLite/API deve ser validada quando houver relatos reais do MVP.
+- [x] Publicar o repositório e incluir evidências próprias da execução local e do Airflow.
 - [ ] Automação UiPath e teste do portal.
 - [ ] Protótipo físico, cloud/DevSecOps, vídeos e entregas dos portais.
 

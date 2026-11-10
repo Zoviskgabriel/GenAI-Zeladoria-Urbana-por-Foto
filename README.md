@@ -29,7 +29,7 @@ python zeladoria-app\disciplinas\02-bigdata\zela_bigdata\dags\zela_pipeline.py `
 
 Os dados são sintéticos. A execução registrada nesta cópia leu 40 relatos, aceitou 40, rejeitou 0 e produziu 74 linhas agregadas. Logs que vieram no ZIP do Joseh estão identificados como evidências recebidas; a execução local tem log e saídas próprios.
 
-O documento técnico está em [`output/pdf/Entrega_Big_Data_Zeladoria.pdf`](output/pdf/Entrega_Big_Data_Zeladoria.pdf). A DAG foi executada em Airflow 2.10.5 com sucesso: as tarefas extrair, validar, agregar e carregar terminaram. Os logs e saídas estão no pacote. A captura da Graph View ainda precisa ser incluída após entrar na interface local. A URL pública do repositório da equipe está no link acima; o pacote ZIP contém a versão completa da entrega Big Data.
+O documento técnico está em [`output/pdf/Entrega_Big_Data_Zeladoria.pdf`](output/pdf/Entrega_Big_Data_Zeladoria.pdf). A DAG foi executada em Airflow 2.10.5 com sucesso: as tarefas extrair, validar, agregar e carregar terminaram. Os logs e saídas estão no pacote. A captura da Graph View está incluída no PDF e em `zeladoria-app/disciplinas/02-bigdata/zela_bigdata/evidencias/execucao_airflow/airflow_graph_view_2026-11-10.png`. A URL pública do repositório da equipe está no link acima; o pacote ZIP contém a versão completa da entrega Big Data.
 
 ## Referências internas
 
