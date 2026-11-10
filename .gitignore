@@ -1,0 +1,10 @@
+.venv/
+tmp/
+pytest-cache-files-*/
+__pycache__/
+*.py[cod]
+zeladoria-app/.env
+zeladoria-app/data/*.db
+zeladoria-app/data/*.db-*
+zeladoria-app/uploads/*
+output/Entrega_Big_Data_Zeladoria.zip

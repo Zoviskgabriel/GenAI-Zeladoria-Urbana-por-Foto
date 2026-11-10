@@ -1,0 +1,15 @@
+id,created_at,location,latitude,longitude,description,category,status,source,cv_label,cv_confidence,cv_model,cv_reviewed,service_order
+1,2026-11-02T10:15:00+00:00,"Rua das Acácias, 120",-23.55,-46.63,[demonstração] buraco perto da guia,dano_na_pista,recebido,demo,dano_na_pista,0.81,demo-simulado,true,
+2,2026-11-02 14:00:00,"Av. Central, 900",,,[demonstração] buraco grande,buraco,Em Triagem,demo,dano_na_pista,0.66,demo-simulado,1,
+3,2026-11-03T09:00:00Z,"  Travessa   do Mercado, 45 ",,,[demonstração] calçada quebrada,Calçada Quebrada,encaminhado,demo,sem_deteccao,0,demo-simulado,true,OS-DEMO-0003
+4,2026-11-04T08:30:00+00:00,"Praça da Matriz",-23.5,,[demonstração] só latitude,bueiro_entupido,novo,simulado,sem_deteccao,0,demo-simulado,false,
+5,2026-11-05T11:00:00+00:00,"Rua do Campus, portão 2",,,[demonstração] versão antiga da API,buraco,protocolado,demo,,,,false,SP-123
+6,2026-11-05T12:00:00+00:00,"",,,[demonstração] sem local,dano_na_pista,recebido,demo,dano_na_pista,0.9,demo-simulado,true,
+7,2026-11-06T12:00:00+00:00,"Alameda dos Ipês, 77",,,[demonstração] categoria fora da lista,vazamento,recebido,demo,sem_deteccao,0,demo-simulado,true,
+8,2031-01-01T00:00:00+00:00,"Rua das Acácias, 310",,,[demonstração] data no futuro,dano_na_pista,recebido,demo,dano_na_pista,0.7,demo-simulado,true,
+9,ontem,"Rua das Acácias, 310",,,[demonstração] data ilegível,dano_na_pista,recebido,demo,dano_na_pista,0.7,demo-simulado,true,
+10,2026-11-07T07:45:00+00:00,"Av. Central, 1500",,,[demonstração] status desconhecido,lixo,aguardando,demo,sem_deteccao,0,demo-simulado,true,
+2,2026-11-07T08:00:00+00:00,"Av. Central, 900",,,[demonstração] id repetido,dano_na_pista,recebido,demo,dano_na_pista,0.5,demo-simulado,true,
+abc,2026-11-07T09:00:00+00:00,"Rua Projetada 2",,,[demonstração] id inválido,outro,recebido,demo,sem_deteccao,0,demo-simulado,true,
+13,2025-06-01T09:00:00+00:00,"Rua do Campus, estacionamento",,,[demonstração] antes do piloto,iluminacao,recebido,demo,sem_deteccao,0,demo-simulado,true,
+14,2026-11-08T16:20:00+00:00,"Rua do Campus, estacionamento",,,[demonstração] origem desconhecida,iluminacao,recebido,parceiro,sem_deteccao,0,demo-simulado,true,

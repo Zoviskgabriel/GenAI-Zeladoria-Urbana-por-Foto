@@ -1,0 +1,18 @@
+[2026-11-10T19:00:08.784+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-11-10T19:00:08.802+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zela_relatos.agregar manual__entrega_bigdata_20261110 [queued]>
+[2026-11-10T19:00:08.813+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zela_relatos.agregar manual__entrega_bigdata_20261110 [queued]>
+[2026-11-10T19:00:08.813+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2026-11-10T19:00:08.848+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): agregar> on 2026-11-10 18:59:47+00:00
+[2026-11-10T19:00:08.852+0000] {standard_task_runner.py:72} INFO - Started process 254 to run task
+[2026-11-10T19:00:08.855+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'zela_relatos', 'agregar', 'manual__entrega_bigdata_20261110', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/zela_relatos_dag.py', '--cfg-path', '/tmp/tmp179u8hvd']
+[2026-11-10T19:00:08.857+0000] {standard_task_runner.py:105} INFO - Job 9: Subtask agregar
+[2026-11-10T19:00:08.921+0000] {task_command.py:467} INFO - Running <TaskInstance: zela_relatos.agregar manual__entrega_bigdata_20261110 [running]> on host 96d87b8d344d
+[2026-11-10T19:00:09.020+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='agregar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T18:59:47+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__entrega_bigdata_20261110'
+[2026-11-10T19:00:09.021+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-11-10T19:00:09.026+0000] {logging_mixin.py:190} INFO - 74 linhas agregadas (dia, semana e mês)
+[2026-11-10T19:00:09.032+0000] {python.py:240} INFO - Done. Returned value was: /opt/zela/saida/_trabalho/manual__entrega_bigdata_20261110/agregado.json
+[2026-11-10T19:00:09.065+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-10T19:00:09.065+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=zela_relatos, task_id=agregar, run_id=manual__entrega_bigdata_20261110, execution_date=20261110T185947, start_date=20261110T190008, end_date=20261110T190009
+[2026-11-10T19:00:09.149+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-11-10T19:00:09.182+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-11-10T19:00:09.190+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

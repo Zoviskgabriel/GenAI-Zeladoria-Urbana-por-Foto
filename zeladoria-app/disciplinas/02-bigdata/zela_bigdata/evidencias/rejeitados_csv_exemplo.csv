@@ -1,0 +1,10 @@
+id,created_at,location,latitude,longitude,description,category,status,source,cv_label,cv_confidence,cv_model,cv_reviewed,service_order,motivos
+6,2026-11-05T12:00:00+00:00,,,,[demonstração] sem local,dano_na_pista,recebido,demo,dano_na_pista,0.9,demo-simulado,true,,local vazio ou curto demais
+7,2026-11-06T12:00:00+00:00,"Alameda dos Ipês, 77",,,[demonstração] categoria fora da lista,vazamento,recebido,demo,sem_deteccao,0,demo-simulado,true,,categoria desconhecida: 'vazamento'
+8,2031-01-01T00:00:00+00:00,"Rua das Acácias, 310",,,[demonstração] data no futuro,dano_na_pista,recebido,demo,dano_na_pista,0.7,demo-simulado,true,,data no futuro
+9,ontem,"Rua das Acácias, 310",,,[demonstração] data ilegível,dano_na_pista,recebido,demo,dano_na_pista,0.7,demo-simulado,true,,data ausente ou inválida
+10,2026-11-07T07:45:00+00:00,"Av. Central, 1500",,,[demonstração] status desconhecido,lixo,aguardando,demo,sem_deteccao,0,demo-simulado,true,,status desconhecido: 'aguardando'
+2,2026-11-07T08:00:00+00:00,"Av. Central, 900",,,[demonstração] id repetido,dano_na_pista,recebido,demo,dano_na_pista,0.5,demo-simulado,true,,id duplicado
+abc,2026-11-07T09:00:00+00:00,Rua Projetada 2,,,[demonstração] id inválido,outro,recebido,demo,sem_deteccao,0,demo-simulado,true,,id ausente ou não numérico
+13,2025-06-01T09:00:00+00:00,"Rua do Campus, estacionamento",,,[demonstração] antes do piloto,iluminacao,recebido,demo,sem_deteccao,0,demo-simulado,true,,data anterior ao piloto
+14,2026-11-08T16:20:00+00:00,"Rua do Campus, estacionamento",,,[demonstração] origem desconhecida,iluminacao,recebido,parceiro,sem_deteccao,0,demo-simulado,true,,origem desconhecida: 'parceiro'

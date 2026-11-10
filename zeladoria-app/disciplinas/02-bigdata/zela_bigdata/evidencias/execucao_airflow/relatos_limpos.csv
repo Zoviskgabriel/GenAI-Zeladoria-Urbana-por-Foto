@@ -1,0 +1,41 @@
+id,created_at,dia,semana,mes,location,latitude,longitude,category,status,source,cv_label,cv_confidence,cv_model,cv_reviewed,has_service_order
+2,2026-10-22T04:06:15.743034+00:00,2026-10-22,2026-S43,2026-10,Praça da Matriz (lado da banca),,,dano_na_pista,em_triagem,demo,dano_na_pista,0.412,demo-simulado,True,False
+3,2026-11-03T21:11:21.802008+00:00,2026-11-03,2026-S45,2026-11,"Av. Central, 1500 (faixa de pedestres)",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.837,demo-simulado,True,True
+4,2026-10-22T14:32:37.352431+00:00,2026-10-22,2026-S43,2026-10,"Travessa do Mercado, 45",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.733,demo-simulado,True,True
+5,2026-10-07T03:47:20.477765+00:00,2026-10-07,2026-S41,2026-10,Praça da Matriz (lado da banca),,,dano_na_pista,em_triagem,demo,dano_na_pista,0.497,demo-simulado,True,False
+6,2026-11-06T06:28:08.734692+00:00,2026-11-06,2026-S45,2026-11,"Alameda dos Ipês, 77",,,outro,recebido,demo,sem_deteccao,0.0,demo-simulado,False,False
+7,2026-09-29T03:09:50.534840+00:00,2026-09-29,2026-S40,2026-09,"Travessa do Mercado, 45",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.635,demo-simulado,True,False
+8,2026-10-26T00:50:16.172692+00:00,2026-10-26,2026-S44,2026-10,"Travessa do Mercado, 45",,,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+9,2026-10-25T03:51:23.196339+00:00,2026-10-25,2026-S43,2026-10,"Alameda dos Ipês, 77",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.613,demo-simulado,True,True
+10,2026-10-05T17:20:43.487200+00:00,2026-10-05,2026-S41,2026-10,"Rua Projetada 2, esquina com a Av. Central",,,dano_na_pista,descartado,demo,dano_na_pista,0.492,demo-simulado,True,False
+11,2026-11-02T19:08:50.880461+00:00,2026-11-02,2026-S45,2026-11,Praça da Matriz (lado da banca),,,dano_na_pista,encaminhado,demo,dano_na_pista,0.64,demo-simulado,True,True
+12,2026-10-16T17:39:39.353366+00:00,2026-10-16,2026-S42,2026-10,"Rua do Campus, portão 2",,,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+13,2026-10-18T12:16:37.584527+00:00,2026-10-18,2026-S42,2026-10,"Travessa do Mercado, 45",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.511,demo-simulado,True,True
+14,2026-10-02T13:04:52.235570+00:00,2026-10-02,2026-S40,2026-10,"Rua das Acácias, 310",,,dano_na_pista,recebido,demo,dano_na_pista,0.899,demo-simulado,True,False
+15,2026-10-22T22:51:39.443519+00:00,2026-10-22,2026-S43,2026-10,"Rua das Acácias, 120 (em frente à escola)",,,dano_na_pista,recebido,demo,dano_na_pista,0.6,demo-simulado,True,False
+16,2026-10-06T06:02:12.244940+00:00,2026-10-06,2026-S41,2026-10,"Alameda dos Ipês, 77",,,bueiro,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+17,2026-10-22T13:40:51.337810+00:00,2026-10-22,2026-S43,2026-10,"Rua do Campus, estacionamento",,,dano_na_pista,recebido,demo,dano_na_pista,0.837,demo-simulado,True,False
+18,2026-10-21T06:48:44.060364+00:00,2026-10-21,2026-S43,2026-10,"Rua do Campus, estacionamento",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.457,demo-simulado,True,False
+19,2026-10-23T12:54:20.658854+00:00,2026-10-23,2026-S43,2026-10,"Alameda dos Ipês, 77",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.544,demo-simulado,True,False
+20,2026-10-18T11:00:02.669968+00:00,2026-10-18,2026-S42,2026-10,"Rua do Campus, estacionamento",,,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+21,2026-10-19T03:03:05.096362+00:00,2026-10-19,2026-S43,2026-10,"Av. Central, 900 (ponto de ônibus)",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.425,demo-simulado,True,True
+22,2026-10-30T09:27:48.828529+00:00,2026-10-30,2026-S44,2026-10,"Rua Projetada 2, esquina com a Av. Central",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.556,demo-simulado,True,True
+23,2026-10-17T17:27:26.923480+00:00,2026-10-17,2026-S42,2026-10,"Rua das Acácias, 310",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.92,demo-simulado,True,True
+24,2026-10-01T15:47:34.113286+00:00,2026-10-01,2026-S40,2026-10,"Rua das Acácias, 310",,,lixo,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+25,2026-10-26T07:30:49.185234+00:00,2026-10-26,2026-S44,2026-10,"Av. Central, 900 (ponto de ônibus)",,,bueiro,em_triagem,demo,sem_deteccao,0.0,demo-simulado,True,False
+26,2026-10-09T07:02:15.196708+00:00,2026-10-09,2026-S41,2026-10,"Travessa do Mercado, 45",,,dano_na_pista,recebido,demo,dano_na_pista,0.677,demo-simulado,False,False
+27,2026-10-07T15:48:19.804001+00:00,2026-10-07,2026-S41,2026-10,"Rua do Campus, portão 2",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.859,demo-simulado,True,False
+28,2026-11-05T23:16:31.848299+00:00,2026-11-05,2026-S45,2026-11,"Alameda dos Ipês, 77",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.816,demo-simulado,True,False
+29,2026-10-12T05:05:30.647350+00:00,2026-10-12,2026-S42,2026-10,"Av. Central, 900 (ponto de ônibus)",,,bueiro,em_triagem,demo,sem_deteccao,0.0,demo-simulado,True,False
+30,2026-10-11T21:05:40.222799+00:00,2026-10-11,2026-S41,2026-10,"Rua do Campus, estacionamento",,,calcada,recebido,demo,sem_deteccao,0.0,demo-simulado,True,False
+31,2026-10-07T01:02:35.984637+00:00,2026-10-07,2026-S41,2026-10,"Alameda dos Ipês, 77",,,dano_na_pista,encaminhado,demo,dano_na_pista,0.414,demo-simulado,True,True
+32,2026-10-07T23:59:35.441472+00:00,2026-10-07,2026-S41,2026-10,"Alameda dos Ipês, 77",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.648,demo-simulado,True,False
+33,2026-10-07T09:25:38.624775+00:00,2026-10-07,2026-S41,2026-10,"Rua do Campus, portão 2",,,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+34,2026-10-01T00:38:45.584026+00:00,2026-10-01,2026-S40,2026-10,Praça da Matriz (lado da banca),,,dano_na_pista,recebido,demo,dano_na_pista,0.685,demo-simulado,True,False
+35,2026-09-27T00:57:58.537739+00:00,2026-09-27,2026-S39,2026-09,Praça da Matriz (lado da banca),,,dano_na_pista,encaminhado,demo,dano_na_pista,0.83,demo-simulado,True,True
+36,2026-10-05T04:06:37.231083+00:00,2026-10-05,2026-S41,2026-10,"Travessa do Mercado, 45",,,iluminacao,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+37,2026-10-09T16:44:08.206705+00:00,2026-10-09,2026-S41,2026-10,"Rua das Acácias, 120 (em frente à escola)",,,calcada,recebido,demo,sem_deteccao,0.0,demo-simulado,True,False
+38,2026-10-31T09:00:17.652323+00:00,2026-10-31,2026-S44,2026-10,"Rua do Campus, estacionamento",,,calcada,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True
+39,2026-09-29T22:28:51.813573+00:00,2026-09-29,2026-S40,2026-09,"Av. Central, 1500 (faixa de pedestres)",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.458,demo-simulado,True,False
+40,2026-10-01T05:50:16.695112+00:00,2026-10-01,2026-S40,2026-10,"Rua das Acácias, 120 (em frente à escola)",,,dano_na_pista,em_triagem,demo,dano_na_pista,0.619,demo-simulado,True,False
+41,2026-09-27T08:32:49.426351+00:00,2026-09-27,2026-S39,2026-09,"Rua das Acácias, 120 (em frente à escola)",,,dano_na_pista,encaminhado,demo,sem_deteccao,0.0,demo-simulado,True,True

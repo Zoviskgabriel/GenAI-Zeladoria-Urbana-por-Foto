@@ -1,0 +1,67 @@
+
+[2026-11-10T17:00:34.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags
+[2026-11-10T17:00:34.934+0000] {dag.py:4435} INFO - dagrun id: zela_relatos
+[2026-11-10T17:00:34.950+0000] {dag.py:4451} INFO - created dagrun <DagRun zela_relatos @ 2026-11-10 01:00:00+00:00: manual__2026-11-10T01:00:00+00:00, state:running, queued_at: None. externally triggered: False>
+[2026-11-10T17:00:34.981+0000] {dag.py:4396} INFO - [DAG TEST] starting task_id=extrair map_index=-1
+[2026-11-10T17:00:34.982+0000] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: zela_relatos.extrair manual__2026-11-10T01:00:00+00:00 [scheduled]>
+[2026-11-10 17:00:35,614] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='extrair' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.614+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='extrair' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.618+0000] {taskinstance.py:732} INFO - ::endgroup::
+14 relatos lidos de /opt/zela/exemplos/relatos_brutos_exemplo.csv
+[2026-11-10 17:00:35,620] {python.py:240} INFO - Done. Returned value was: /opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/brutos.json
+[2026-11-10T17:00:35.620+0000] {python.py:240} INFO - Done. Returned value was: /opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/brutos.json
+[2026-11-10T17:00:35.633+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-10T17:00:35.633+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=zela_relatos, task_id=extrair, run_id=manual__2026-11-10T01:00:00+00:00, execution_date=20261110T010000, start_date=, end_date=20261110T170035
+[2026-11-10T17:00:35.650+0000] {dag.py:4410} INFO - [DAG TEST] end task task_id=extrair map_index=-1
+[2026-11-10T17:00:35.668+0000] {dag.py:4396} INFO - [DAG TEST] starting task_id=validar map_index=-1
+[2026-11-10T17:00:35.668+0000] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: zela_relatos.validar manual__2026-11-10T01:00:00+00:00 [scheduled]>
+[2026-11-10 17:00:35,698] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='validar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.698+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='validar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.699+0000] {taskinstance.py:732} INFO - ::endgroup::
+válidos: 5 | rejeitados: 9
+  rejeitado id='6': local vazio ou curto demais
+  rejeitado id='7': categoria desconhecida: 'vazamento'
+  rejeitado id='8': data no futuro
+  rejeitado id='9': data ausente ou inválida
+  rejeitado id='10': status desconhecido: 'aguardando'
+  rejeitado id='2': id duplicado
+  rejeitado id='abc': id ausente ou não numérico
+  rejeitado id='13': data anterior ao piloto
+  rejeitado id='14': origem desconhecida: 'parceiro'
+[2026-11-10 17:00:35,701] {python.py:240} INFO - Done. Returned value was: {'validos': '/opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/validos.json', 'rejeitados': '/opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/rejeitados.json'}
+[2026-11-10T17:00:35.701+0000] {python.py:240} INFO - Done. Returned value was: {'validos': '/opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/validos.json', 'rejeitados': '/opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/rejeitados.json'}
+[2026-11-10T17:00:35.711+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-10T17:00:35.711+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=zela_relatos, task_id=validar, run_id=manual__2026-11-10T01:00:00+00:00, execution_date=20261110T010000, start_date=, end_date=20261110T170035
+[2026-11-10T17:00:35.721+0000] {dag.py:4410} INFO - [DAG TEST] end task task_id=validar map_index=-1
+[2026-11-10T17:00:35.737+0000] {dag.py:4396} INFO - [DAG TEST] starting task_id=agregar map_index=-1
+[2026-11-10T17:00:35.737+0000] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: zela_relatos.agregar manual__2026-11-10T01:00:00+00:00 [scheduled]>
+[2026-11-10 17:00:35,771] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='agregar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.771+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='agregar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.773+0000] {taskinstance.py:732} INFO - ::endgroup::
+15 linhas agregadas (dia, semana e mês)
+[2026-11-10 17:00:35,775] {python.py:240} INFO - Done. Returned value was: /opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/agregado.json
+[2026-11-10T17:00:35.775+0000] {python.py:240} INFO - Done. Returned value was: /opt/zela/saida/_trabalho/manual__2026-11-10T01_00_00_00_00/agregado.json
+[2026-11-10T17:00:35.785+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-10T17:00:35.785+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=zela_relatos, task_id=agregar, run_id=manual__2026-11-10T01:00:00+00:00, execution_date=20261110T010000, start_date=, end_date=20261110T170035
+[2026-11-10T17:00:35.799+0000] {dag.py:4410} INFO - [DAG TEST] end task task_id=agregar map_index=-1
+[2026-11-10T17:00:35.814+0000] {dag.py:4396} INFO - [DAG TEST] starting task_id=carregar map_index=-1
+[2026-11-10T17:00:35.814+0000] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: zela_relatos.carregar manual__2026-11-10T01:00:00+00:00 [scheduled]>
+[2026-11-10 17:00:35,842] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='carregar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.842+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zela_relatos' AIRFLOW_CTX_TASK_ID='carregar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-10T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-10T01:00:00+00:00'
+[2026-11-10T17:00:35.844+0000] {taskinstance.py:732} INFO - ::endgroup::
+{
+  "relatos_lidos": 14,
+  "relatos_validos": 5,
+  "relatos_rejeitados": 9,
+  "relatos_demo": 5,
+  "taxa_confirmacao_cidadao": 0.6,
+  "taxa_concordancia_visao": 1.0,
+  "taxa_encaminhamento": 0.4
+}
+[2026-11-10 17:00:35,854] {python.py:240} INFO - Done. Returned value was: {'relatos_lidos': 14, 'relatos_validos': 5, 'relatos_rejeitados': 9, 'relatos_demo': 5, 'taxa_confirmacao_cidadao': 0.6, 'taxa_concordancia_visao': 1.0, 'taxa_encaminhamento': 0.4}
+[2026-11-10T17:00:35.854+0000] {python.py:240} INFO - Done. Returned value was: {'relatos_lidos': 14, 'relatos_validos': 5, 'relatos_rejeitados': 9, 'relatos_demo': 5, 'taxa_confirmacao_cidadao': 0.6, 'taxa_concordancia_visao': 1.0, 'taxa_encaminhamento': 0.4}
+[2026-11-10T17:00:35.877+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-10T17:00:35.878+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=zela_relatos, task_id=carregar, run_id=manual__2026-11-10T01:00:00+00:00, execution_date=20261110T010000, start_date=, end_date=20261110T170035
+[2026-11-10T17:00:35.887+0000] {dag.py:4410} INFO - [DAG TEST] end task task_id=carregar map_index=-1
+[2026-11-10T17:00:35.893+0000] {dagrun.py:854} INFO - Marking run <DagRun zela_relatos @ 2026-11-10 01:00:00+00:00: manual__2026-11-10T01:00:00+00:00, state:running, queued_at: None. externally triggered: False> successful
+[2026-11-10T17:00:35.893+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=zela_relatos, execution_date=2026-11-10 01:00:00+00:00, run_id=manual__2026-11-10T01:00:00+00:00, run_start_date=2026-11-10 01:00:00+00:00, run_end_date=2026-11-10 17:00:35.893620+00:00, run_duration=57635.89362, state=success, external_trigger=False, run_type=manual, data_interval_start=2026-11-10 00:00:00+00:00, data_interval_end=2026-11-10 01:00:00+00:00, dag_hash=None

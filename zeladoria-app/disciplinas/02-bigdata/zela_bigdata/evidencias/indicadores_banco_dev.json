@@ -1,0 +1,9 @@
+{
+  "relatos_lidos": 41,
+  "relatos_validos": 41,
+  "relatos_rejeitados": 0,
+  "relatos_demo": 40,
+  "taxa_confirmacao_cidadao": 0.951,
+  "taxa_concordancia_visao": 0.974,
+  "taxa_encaminhamento": 0.488
+}

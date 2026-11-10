@@ -1,0 +1,23 @@
+# Airflow local para a disciplina de Big Data (modo standalone: 1 container, metadados em SQLite).
+# Uso: docker compose -f docker-compose.airflow.yml up
+# Interface em http://localhost:8080 (só nesta máquina). Usuário admin e a senha aparecem no log
+# e ficam em ./airflow/standalone_admin_password.txt, que não vai para o git.
+services:
+  airflow:
+    image: apache/airflow:2.10.5-python3.12
+    command: standalone
+    user: "${AIRFLOW_UID:-1000}:0"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+      # Fonte padrão: o SQLite de desenvolvimento da API. Para a API no ar, use a URL de /api/reports.
+      ZELA_FONTE: ${ZELA_FONTE:-sqlite:////opt/zela/app/dev.db}
+      ZELA_SAIDA: /opt/zela/saida
+    volumes:
+      - ./airflow:/opt/airflow
+      - ./dags:/opt/airflow/dags:ro
+      - ./saida:/opt/zela/saida
+      - ./exemplos:/opt/zela/exemplos:ro
+      - ../.dev:/opt/zela/app:ro
+    ports:
+      - "127.0.0.1:8080:8080"   # porta administrativa só no localhost
