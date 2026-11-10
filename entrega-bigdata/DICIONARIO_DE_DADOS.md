@@ -2,7 +2,7 @@
 
 ## Origem: `reports` (banco da aplicação)
 
-É a tabela comum a todas as disciplinas. Cada linha é um relato, e o `id` é o `report_id` usado pelo Airflow e pelo UiPath.
+Tabela operacional lida pelo pipeline. Cada linha representa um relato; o `id` é preservado como identificador do relato nas saídas analíticas.
 
 | Campo | Tipo | Nulo? | Domínio / regra | Descrição |
 | --- | --- | --- | --- | --- |
@@ -20,7 +20,7 @@
 | `cv_confidence` | real | sim | 0 a 1 | Maior confiança entre as detecções válidas |
 | `cv_model` | texto | sim | | Modelo que gerou a sugestão |
 | `cv_reviewed` | booleano | não | | O cidadão confirmou ou corrigiu a categoria |
-| `service_order` | texto | sim | | Número da ordem de serviço gravado pelo robô |
+| `service_order` | texto | sim | | Identificador da ordem de atendimento, quando associado ao relato |
 | `confirm_token` | texto | não | | Segredo para a confirmação. **Nunca é extraído pela DAG** |
 
 ## Destino: `zela_analitico.db`
@@ -41,7 +41,7 @@ Uma linha por relato válido, já normalizado.
 | `category`, `status`, `source` | texto | Valores canônicos do contrato |
 | `cv_label`, `cv_confidence`, `cv_model` | | Copiados da origem |
 | `cv_reviewed` | 0 ou 1 | |
-| `has_service_order` | 0 ou 1 | Se o robô já gravou a ordem de serviço. O número em si não é copiado |
+| `has_service_order` | 0 ou 1 | Indica se existe uma ordem de atendimento associada. O número em si não é copiado |
 
 ### `relatos_rejeitados`
 
