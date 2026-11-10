@@ -4,6 +4,8 @@ Projeto CitizenTech 2026.2: MVP acadêmico para registrar problemas urbanos com 
 
 Repositório público da equipe: [GenAI-Zeladoria-Urbana-por-Foto](https://github.com/Zoviskgabriel/GenAI-Zeladoria-Urbana-por-Foto).
 
+Integrantes: Joseh Gabriel Trimboli Agra (RM 553094) e Pedro Henrique de Assuncao Lima (RM 5527476).
+
 ## Rodar o app
 
 ```powershell

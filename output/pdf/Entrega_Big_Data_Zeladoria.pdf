@@ -10,7 +10,7 @@ endobj
 2 0 obj
 <<
 /Count 4
-/Kids [ 3 0 R 20 0 R 24 0 R 26 0 R ]
+/Kids [ 3 0 R 22 0 R 26 0 R 28 0 R ]
 /Type /Pages
 >>
 endobj
@@ -30,215 +30,13 @@ endobj
 >>
 endobj
 4 0 obj
-[ 5 0 R 6 0 R ]
+[ 39 0 R 40 0 R ]
 endobj
 5 0 obj
-<<
-/Length 4078
->>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-.078431 .141176 .227451 rg
-n 0 819.2126 595.2756 22.67717 re f*
-1 1 1 rg
-BT /F2 8 Tf 9.6 TL ET
-BT 1 0 0 1 51.02362 826.2992 Tm (ZELA  |  BIG DATA & DATA INTEGRATION) Tj T* ET
-.862745 .898039 .921569 RG
-n 51.02362 39.68504 m 544.252 39.68504 l S
-.388235 .443137 .517647 rg
-BT /F1 7.5 Tf 9 TL ET
-BT 1 0 0 1 51.02362 25.51181 Tm (CitizenTech - Global Solution 2026.2) Tj T* ET
-BT 1 0 0 1 540.082 25.51181 Tm (1) Tj T* ET
-Q
-q
-1 0 0 1 57.02362 736.6772 cm
-Q
-q
-1 0 0 1 57.02362 719.6772 cm
-q
-.031373 .494118 .545098 rg
-BT 1 0 0 1 0 5 Tm /F1 12 Tf 17 TL (ENTREGA TECNICA | DISCIPLINA 02) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 644.3386 cm
-q
-BT 1 0 0 1 0 37 Tm 32 TL /F2 27 Tf .078431 .141176 .227451 rg (Pipeline de Dados) Tj  T* (do MVP CitizenTech) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 607.4961 cm
-q
-BT 1 0 0 1 0 5 Tm 17 TL /F1 12 Tf .031373 .494118 .545098 rg (Big Data Architecture & Data Integration) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 584.8189 cm
-Q
-q
-1 0 0 1 65.19685 525.8189 cm
-q
-.933333 .956863 .968627 rg
-n 0 59 464.8819 -59 re f*
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 10 23 cm
-q
-BT 1 0 0 1 0 16.8 Tm 13 TL /F2 9.2 Tf .12549 .168627 .219608 rg (PROJETO) Tj /F1 9.2 Tf  T* (Zela - Zeladoria Urbana por Foto) Tj T* ET
-Q
-Q
-q
-1 0 0 1 242.4409 10 cm
-q
-BT 1 0 0 1 0 29.8 Tm 13 TL /F2 9.2 Tf .12549 .168627 .219608 rg (PAPEL NO MVP) Tj /F1 9.2 Tf  T* (Coletar, tratar e disponibilizar dados para) Tj T* (acompanhamento de relatos.) Tj T* ET
-Q
-Q
-q
-1 J
-1 j
-.827451 .878431 .905882 RG
-.5 w
-n 0 59 m 464.8819 59 l S
-n 0 0 m 464.8819 0 l S
-n 0 0 m 0 59 l S
-n 464.8819 0 m 464.8819 59 l S
-Q
-Q
-Q
-q
-1 0 0 1 57.02362 503.1417 cm
-Q
-q
-1 0 0 1 57.02362 483.4724 cm
-q
-.031373 .494118 .545098 rg
-BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Resumo) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 438.4724 cm
-q
-BT 1 0 0 1 0 29.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (A solucao implementa um fluxo ETL reproduzivel para transformar relatos de zeladoria em dados analiticos. A carga) Tj T* (pode ler a tabela ) Tj /F2 9.2 Tf (reports) Tj /F1 9.2 Tf ( do MVP ou um CSV de demonstracao, validar e normalizar cada registro, separar rejeicoes) Tj T* (e gerar agregacoes por dia, semana e mes.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 406.2362 cm
-q
-.12549 .168627 .219608 rg
-BT 1 0 0 1 0 16.8 Tm /F1 9.2 Tf 13 TL (O pipeline e executavel localmente em Python sem dependencias externas. A orquestracao foi preparada como DAG) Tj T* (para Apache Airflow 2.10.5, com Compose e montagem local do banco em modo somente leitura.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 386 cm
-q
-.031373 .494118 .545098 rg
-BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (O que acompanha esta entrega) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 367 cm
-q
-BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Codigo do pipeline ETL e DAG Airflow) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 347.7638 cm
-q
-BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Configuracao Docker Compose para a aplicacao e o banco local) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 328.5276 cm
-q
-BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Dicionario de dados da origem e das tabelas analiticas) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 309.2913 cm
-q
-BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 CSV/JSON gerados e log da execucao local com dados sinteticos) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 290.0551 cm
-q
-BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Instrucoes de reproducao, limites e cuidados de privacidade) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 275.315 cm
-Q
-q
-1 0 0 1 57.02362 255.6457 cm
-q
-.031373 .494118 .545098 rg
-BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Estado da evid\352ncia) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 219.6457 cm
-q
-.388235 .443137 .517647 rg
-BT 1 0 0 1 0 22.3 Tm /F1 7.7 Tf 10 TL (A execucao ETL local esta registrada. A captura da interface Airflow \(Graph View e log de tarefa\) ainda nao foi produzida: o Docker Desktop) Tj T* (deste computador informa que a virtualizacao de hardware esta desativada no firmware. O pacote nao apresenta essa etapa como) Tj T* (executada.) Tj T* ET
-Q
-Q
- 
-
-Q
-
-endstream
+null
 endobj
 6 0 obj
-<<
-/Length 605
->>
-stream
-q
-0.0 0.0 595.2756 841.8898 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-2 12 Tf
-14.4 TL
-ET
-1 1 1 rg
-n
-52 206 505 68 re
-f*
-0.031373 0.494118 0.545098 rg
-BT
-/F2-2 9 Tf
-10.8 TL
-ET
-BT
-1 0 0 1 57 260 Tm
-(Estado da evidencia \050atualizado\051) Tj
-T*
-ET
-q
-1 0 0 1 57 230.6 cm
-q
-0.12549 0.168627 0.219608 rg
-BT
-1 0 0 1 0 12.6 Tm
-/F1-2 7.8 Tf
-10.2 TL
--0.013552 Tw
-(Airflow 2\05610\0565 foi iniciado via Docker Compose\056 A DAG zela\137relatos e as quatro tarefas terminaram SUCCESS\073 os logs e os arquivos gerados) Tj
-T*
-0 Tw
-(estao incluidos\056 Falta anexar uma captura da Graph View na interface local\056) Tj
-T*
-ET
-Q
-Q
-Q
-
-endstream
+null
 endobj
 7 0 obj
 <<
@@ -249,15 +47,17 @@ endobj
 /F1-3 11 0 R
 /F1-4 12 0 R
 /F1-5 13 0 R
-/F1-6 35 0 R
-/F2 14 0 R
-/F2-0 15 0 R
-/F2-1 16 0 R
-/F2-2 17 0 R
-/F2-3 17 0 R
-/F2-4 18 0 R
-/F2-5 36 0 R
-/F3 19 0 R
+/F1-6 14 0 R
+/F1-7 37 0 R
+/F2 15 0 R
+/F2-0 16 0 R
+/F2-1 17 0 R
+/F2-2 18 0 R
+/F2-3 18 0 R
+/F2-4 19 0 R
+/F2-5 20 0 R
+/F2-6 38 0 R
+/F3 21 0 R
 >>
 endobj
 8 0 obj
@@ -316,9 +116,9 @@ endobj
 endobj
 14 0 obj
 <<
-/BaseFont /Helvetica-Bold
+/BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
-/Name /F2
+/Name /F1
 /Subtype /Type1
 /Type /Font
 >>
@@ -361,15 +161,33 @@ endobj
 endobj
 19 0 obj
 <<
-/BaseFont /ZapfDingbats
-/Name /F3
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 20 0 obj
 <<
-/Contents 21 0 R
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Parent 2 0 R
 /Resources <<
@@ -382,10 +200,10 @@ endobj
 /Type /Page
 >>
 endobj
-21 0 obj
-[ 22 0 R 23 0 R ]
+23 0 obj
+[ 24 0 R 25 0 R ]
 endobj
-22 0 obj
+24 0 obj
 <<
 /Length 8831
 >>
@@ -811,7 +629,7 @@ Q
 
 endstream
 endobj
-23 0 obj
+25 0 obj
 <<
 /Length 1881
 >>
@@ -976,9 +794,9 @@ Q
 
 endstream
 endobj
-24 0 obj
+26 0 obj
 <<
-/Contents 25 0 R
+/Contents 27 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Parent 2 0 R
 /Resources <<
@@ -991,7 +809,7 @@ endobj
 /Type /Page
 >>
 endobj
-25 0 obj
+27 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
 /Length 2119
@@ -1000,10 +818,10 @@ stream
 Gatm<>AkIm&Ur?8R&<86d%QeQ?Pn2fm*ouo&E>b892RsA/B8+H>uE!u2^dgM08@):erF<'XW5+dDf`[@ZP!mA5fV\u&+FH?B7H0h;cqk,bXE#Bhr+HJG!?X3<TfbQ+`f*5&k&0hGp1"@Ad/mHAKt*@Q;BDl8?8J<1_jS%aU0$(h(LPjr6K4lO[TU7F(ds%13g8HV3"MEOec-J6CjDdD42/>4j<rrrjO2hIfS>2?btiE[=gaRJ$)#;hI#(k=4]AQrX>h\Ykj(<M7R6n5h&N!A.=>APssBAmFBF.kE%QqXG\?Z*f<&rBee<+i8[LAFe*+JLcj!o<e2Z0<T_gt%1/:JU*;7hOVX[QZBe@I$Q\ju1+R*(_ln%0fh^8:8)*E_[Kb05<M$-DV3`PRWLo9q-?js3h9QRtX-%[-(8=Ea)VY1%-VcWIO>CnMP)O9N;c[h.$Fm;e3"-Q:JO3p2&8[nd^fDsboLPG6j[j6MQ"`;#o8'@s7Ep3k`n]4VNJMR&A6S%'#[+H36):e8P8`3\ju:ZT-#.;3lX<Ghf7Dk/7plA,SSg1G#7C[u6##6AD5RhhfQl`_TdS_B[%Hl>"=t_S-gHfDZVGG;#D/lg)e0RpmV$BAnDjL6bkX9O]`I8!OU:kZ\#?D*Ob?b"]ESH6]!Zu``?&O$IcdVSh<m]`"fLO!@DKE)Es[,[Mn52`r$j4Z4jDr1/'UI>\X/VV*:J_2iu\h,;:[&n*BZ9pCapU#J,"gcQ&+FLU7Z(mGm"#DfX#n0m?1&(b9WCkoM>r,joq/RU)L*oX`0K&(<o%2.P@W(oO<?s0<ds#7pRJU.C,uQ5<3OiME9HNoUMnXeQ^Q&GeeioM9*^s3L4n["HZC_\/B=#RP6CpRReTONj[p^Ga>g>TM6QrloDG50T]IJJA89?cCqRL's%Gk3r;p`+3pRtTYjOP=_Gu+rX\A(e^gDekFfo*:2fsY3OBW:A)/6ihue_)5<n5B[l`1Shh\-o&-.FRTKU<UhX1Hbr=6?_.-eA$G]F>+[4`d]e=!72j;LN/#4'm3AjKdH9pLXrFIlW/4^tMYZ.%T,f``d`B:aE+Gh/'c6r.q5BJ#^qTL'/"fP-%gZ1e=7LgE%[96Q65)VnT334Pf_J4%(L2#;bg)`?2ZolG"!.Zp=T%?A/a%P6S>Y/i-@SB;RVKeV#>pZT!WYXO>o>3GNI4$^=57=-Og!-_,m,MUl=^sg;cip<u,c62bF)m+ljqg`X)<,:`ke"#1`*Hn(&@K2LEZUC$*Z7p/9D,ApYQCPD+^1uP)MX4=9*I4f?hV&-lX$btIYo)fI!f":kJ7(aG$A[90(p]02cuL=teiJM^eHcDm2(-j^YK^_Hab1I?pJdu[^/DS4qY#0HSrt=raI;r/\=HcD+h=p+csq^1^NaOK3-OM<,BV;,6>4b`n2]P,D'n5b9[o#UG\5$tUhE$C"&-;>RYe+rIilI'ruF#eOs^Ds8u;j8U[@$rYVWh1K[9_$VMB/$IiS"-j>=%6LClC<%c_kb(m35,0Wkpk)$!C!np3938s*+R;ac`YMnR3H*sJ3H,HA>4!V$#@+q\g\).=s)=W*%.aec()'R>ft5DD^PQql]rVT/,8*A@u41DeDk(F&H4s%H2_5A'KX_oP&R<P_D"MrK+P]equ5Csg,Fj-\kViI.l**2%].H5O6o`$l%qIg_p9EcBLl6smgmnd5g"`im4P"q/HE"NgeWq]/I0MY7LpE20i'::krqm(^WS60>gO7@=tB8S)caN!;,kl(D7>$FFuWEPu[0r_>[;)K6cC%Gjts\.L0KpfQptBr5>e]l5AC,ABql;6\22Si$6L'tfnV+)MiWFqi;E"2;)OA,(/7B3l)fZ5\RC%"3XL%dT19OcKa"&0)U<a(VMBq\F%+>f\Bf:RN7&;.o2Hk6J%qLd;-2^s+oTf#*5sZe"j1`s0kG5",>tqDikh*Z0tmA0GiKS5-$?P!aNGLcijiqEKHqAqpai^K./cQMNQ[%OU*gND4BaRh:.Q:c\Z-NipcrZ)RK5#f//Zfj5VP@9c$+o\'<H$k4a3XT_+&)&if2YCgD,eF++n-G_+Sr#9dgrhMI[".ie)?X2K9=PdBAX=rJ70:/"a+%?5.F2Iq$;p3#D^CrdL^]~>
 endstream
 endobj
-26 0 obj
+28 0 obj
 <<
-/Annots [ 27 0 R 28 0 R 29 0 R 30 0 R ]
-/Contents 31 0 R
+/Annots [ 29 0 R 30 0 R 31 0 R 32 0 R ]
+/Contents 33 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Parent 2 0 R
 /Resources <<
@@ -1016,7 +834,7 @@ endobj
 /Type /Page
 >>
 endobj
-27 0 obj
+29 0 obj
 <<
 /A <<
 /S /URI
@@ -1029,7 +847,7 @@ endobj
 /Type /Annot
 >>
 endobj
-28 0 obj
+30 0 obj
 <<
 /A <<
 /S /URI
@@ -1040,10 +858,10 @@ endobj
 /Rect [ 190.2334 379.64 396.13 389 ]
 /Subtype /Link
 /Type /Annot
-/P 26 0 R
+/P 28 0 R
 >>
 endobj
-29 0 obj
+31 0 obj
 <<
 /A <<
 /S /URI
@@ -1054,10 +872,10 @@ endobj
 /Rect [ 141.2416 388.64 347.1382 398 ]
 /Subtype /Link
 /Type /Annot
-/P 26 0 R
+/P 28 0 R
 >>
 endobj
-30 0 obj
+32 0 obj
 <<
 /A <<
 /S /URI
@@ -1068,50 +886,13 @@ endobj
 /Rect [ 165.0862 390.64 370.9828 400 ]
 /Subtype /Link
 /Type /Annot
-/P 26 0 R
+/P 28 0 R
 >>
-endobj
-31 0 obj
-[ 37 0 R 38 0 R ]
-endobj
-32 0 obj
-null
 endobj
 33 0 obj
-null
+[ 34 0 R 35 0 R ]
 endobj
 34 0 obj
-<<
-/Author (Equipe CitizenTech)
-/CreationDate (D\07220261110154708\05503\04700\047)
-/Creator (\050unspecified\051)
-/Keywords ()
-/ModDate (D\07220261110154708\05503\04700\047)
-/Producer (ReportLab PDF Library \055 \050opensource\051)
-/Subject (\050unspecified\051)
-/Title (Pipeline de Dados do MVP CitizenTech)
-/Trapped /False
->>
-endobj
-35 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-36 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-37 0 obj
 <<
 /Length 9395
 >>
@@ -1563,7 +1344,7 @@ Q
 
 endstream
 endobj
-38 0 obj
+35 0 obj
 <<
 /Length 396
 >>
@@ -1600,54 +1381,347 @@ Q
 
 endstream
 endobj
+36 0 obj
+<<
+/Author (Equipe CitizenTech)
+/CreationDate (D\07220261110154708\05503\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261110154708\05503\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (Pipeline de Dados do MVP CitizenTech)
+/Trapped /False
+>>
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Length 4688
+>>
+stream
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.078431 .141176 .227451 rg
+n 0 819.2126 595.2756 22.67717 re f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 826.2992 Tm (ZELA  |  BIG DATA & DATA INTEGRATION) Tj T* ET
+.862745 .898039 .921569 RG
+n 51.02362 39.68504 m 544.252 39.68504 l S
+.388235 .443137 .517647 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 51.02362 25.51181 Tm (CitizenTech - Global Solution 2026.2) Tj T* ET
+BT 1 0 0 1 540.082 25.51181 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 736.6772 cm
+Q
+q
+1 0 0 1 57.02362 719.6772 cm
+q
+.031373 .494118 .545098 rg
+BT 1 0 0 1 0 5 Tm /F1 12 Tf 17 TL (ENTREGA TECNICA | DISCIPLINA 02) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 644.3386 cm
+q
+BT 1 0 0 1 0 37 Tm 32 TL /F2 27 Tf .078431 .141176 .227451 rg (Pipeline de Dados) Tj  T* (do MVP CitizenTech) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 607.4961 cm
+q
+BT 1 0 0 1 0 5 Tm 17 TL /F1 12 Tf .031373 .494118 .545098 rg (Big Data Architecture & Data Integration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 584.8189 cm
+Q
+q
+1 0 0 1 65.19685 525.8189 cm
+q
+.933333 .956863 .968627 rg
+n 0 59 464.8819 -59 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 23 cm
+q
+BT 1 0 0 1 0 16.8 Tm 13 TL /F2 9.2 Tf .12549 .168627 .219608 rg (PROJETO) Tj /F1 9.2 Tf  T* (Zela - Zeladoria Urbana por Foto) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.4409 10 cm
+q
+BT 1 0 0 1 0 29.8 Tm 13 TL /F2 9.2 Tf .12549 .168627 .219608 rg (PAPEL NO MVP) Tj /F1 9.2 Tf  T* (Coletar, tratar e disponibilizar dados para) Tj T* (acompanhamento de relatos.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.827451 .878431 .905882 RG
+.5 w
+n 0 59 m 464.8819 59 l S
+n 0 0 m 464.8819 0 l S
+n 0 0 m 0 59 l S
+n 464.8819 0 m 464.8819 59 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 503.1417 cm
+Q
+q
+1 0 0 1 57.02362 483.4724 cm
+q
+.031373 .494118 .545098 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Resumo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 438.4724 cm
+q
+BT 1 0 0 1 0 29.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (A solucao implementa um fluxo ETL reproduzivel para transformar relatos de zeladoria em dados analiticos. A carga) Tj T* (pode ler a tabela ) Tj /F2 9.2 Tf (reports) Tj /F1 9.2 Tf ( do MVP ou um CSV de demonstracao, validar e normalizar cada registro, separar rejeicoes) Tj T* (e gerar agregacoes por dia, semana e mes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 406.2362 cm
+q
+.12549 .168627 .219608 rg
+BT 1 0 0 1 0 16.8 Tm /F1 9.2 Tf 13 TL (O pipeline e executavel localmente em Python sem dependencias externas. A orquestracao foi preparada como DAG) Tj T* (para Apache Airflow 2.10.5, com Compose e montagem local do banco em modo somente leitura.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 386 cm
+q
+.031373 .494118 .545098 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (O que acompanha esta entrega) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 367 cm
+q
+BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Codigo do pipeline ETL e DAG Airflow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 347.7638 cm
+q
+BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Configuracao Docker Compose para a aplicacao e o banco local) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 328.5276 cm
+q
+BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Dicionario de dados da origem e das tabelas analiticas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 309.2913 cm
+q
+BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 CSV/JSON gerados e log da execucao local com dados sinteticos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 290.0551 cm
+q
+BT 1 0 0 1 0 3.8 Tm 13 TL /F1 9.2 Tf .12549 .168627 .219608 rg (\177 Instrucoes de reproducao, limites e cuidados de privacidade) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 275.315 cm
+Q
+q
+1 0 0 1 57.02362 255.6457 cm
+q
+.031373 .494118 .545098 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Estado da evid\352ncia) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 219.6457 cm
+q
+.388235 .443137 .517647 rg
+BT 1 0 0 1 0 22.3 Tm /F1 7.7 Tf 10 TL (A execucao ETL local esta registrada. A captura da interface Airflow \(Graph View e log de tarefa\) ainda nao foi produzida: o Docker Desktop) Tj T* (deste computador informa que a virtualizacao de hardware esta desativada no firmware. O pacote nao apresenta essa etapa como) Tj T* (executada.) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-2 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+52 206 505 68 re
+f*
+0.031373 0.494118 0.545098 rg
+BT
+/F2-2 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 57 260 Tm
+(Estado da evidencia \050atualizado\051) Tj
+T*
+ET
+q
+1 0 0 1 57 230.6 cm
+q
+0.12549 0.168627 0.219608 rg
+BT
+1 0 0 1 0 12.6 Tm
+/F1-2 7.8 Tf
+10.2 TL
+-0.013552 Tw
+(Airflow 2\05610\0565 foi iniciado via Docker Compose\056 A DAG zela\137relatos e as quatro tarefas terminaram SUCCESS\073 os logs e os arquivos gerados) Tj
+T*
+0 Tw
+(estao incluidos\056 Falta anexar uma captura da Graph View na interface local\056) Tj
+T*
+ET
+Q
+Q
+Q
+
+Q
+
+endstream
+endobj
+40 0 obj
+<<
+/Length 654
+>>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-7 12 Tf
+14.4 TL
+ET
+0.933333 0.956863 0.968627 rg
+0.827451 0.878431 0.905882 RG
+n
+69 497 m
+526 497 l
+528.764 497 531 499.236 531 502 c
+531 523 l
+531 525.764 528.764 528 526 528 c
+69 528 l
+66.236 528 64 525.764 64 523 c
+64 502 l
+64 499.236 66.236 497 69 497 c
+h
+B*
+0.031373 0.494118 0.545098 rg
+BT
+/F2-6 6.7 Tf
+8.04 TL
+ET
+BT
+1 0 0 1 74 518 Tm
+(INTEGRANTES DA EQUIPE) Tj
+T*
+ET
+0.078431 0.141176 0.227451 rg
+BT
+/F1-7 7.3 Tf
+8.76 TL
+ET
+BT
+1 0 0 1 74 506 Tm
+(Joseh Gabriel Trimboli Agra \174 RM\072 553094) Tj
+T*
+ET
+BT
+1 0 0 1 306 506 Tm
+(Pedro Henrique de Assuncao Lima \174 RM\072 5527476) Tj
+T*
+ET
+Q
+
+endstream
+endobj
 xref
-0 39
+0 41
 0000000000 65535 f 
 0000000015 00000 n 
 0000000083 00000 n 
 0000000163 00000 n 
 0000000362 00000 n 
-0000000393 00000 n 
-0000004523 00000 n 
-0000005179 00000 n 
-0000005400 00000 n 
-0000005507 00000 n 
-0000005614 00000 n 
-0000005722 00000 n 
-0000005830 00000 n 
-0000005938 00000 n 
-0000006046 00000 n 
-0000006159 00000 n 
-0000006272 00000 n 
-0000006385 00000 n 
-0000006498 00000 n 
-0000006611 00000 n 
-0000006695 00000 n 
-0000006896 00000 n 
-0000006930 00000 n 
-0000015814 00000 n 
-0000017748 00000 n 
-0000017949 00000 n 
-0000020161 00000 n 
-0000020402 00000 n 
-0000020648 00000 n 
-0000020896 00000 n 
-0000021146 00000 n 
-0000021396 00000 n 
-0000021430 00000 n 
-0000021451 00000 n 
-0000021472 00000 n 
-0000021817 00000 n 
-0000021925 00000 n 
-0000022038 00000 n 
-0000031486 00000 n 
+0000000395 00000 n 
+0000000415 00000 n 
+0000000435 00000 n 
+0000000682 00000 n 
+0000000789 00000 n 
+0000000896 00000 n 
+0000001004 00000 n 
+0000001112 00000 n 
+0000001220 00000 n 
+0000001328 00000 n 
+0000001436 00000 n 
+0000001549 00000 n 
+0000001662 00000 n 
+0000001775 00000 n 
+0000001888 00000 n 
+0000002001 00000 n 
+0000002114 00000 n 
+0000002198 00000 n 
+0000002399 00000 n 
+0000002433 00000 n 
+0000011317 00000 n 
+0000013251 00000 n 
+0000013452 00000 n 
+0000015664 00000 n 
+0000015905 00000 n 
+0000016151 00000 n 
+0000016399 00000 n 
+0000016649 00000 n 
+0000016899 00000 n 
+0000016933 00000 n 
+0000026381 00000 n 
+0000026829 00000 n 
+0000027174 00000 n 
+0000027282 00000 n 
+0000027395 00000 n 
+0000032136 00000 n 
 trailer
 <<
-/Size 39
+/Size 41
 /Root 1 0 R
-/Info 34 0 R
+/Info 36 0 R
 /ID [ <da95f96da8598cb163531571e0d7c09f> <da95f96da8598cb163531571e0d7c09f> ]
 >>
 startxref
-31934
+32842
 %%EOF
