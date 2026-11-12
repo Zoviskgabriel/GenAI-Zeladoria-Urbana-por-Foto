@@ -3,7 +3,7 @@
 **Equipe**
 
 - Joseh Gabriel Trimboli Agra — RM 553094
-- Pedro Henrique de Assuncao Lima — RM 5527476
+- Pedro Henrique de Assuncao Lima — RM 552746
 
 ## Objetivo
 
