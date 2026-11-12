@@ -22,7 +22,7 @@ Use uma das 20 fotos revisadas do piloto, sem rostos, placas ou dados pessoais v
 
 - Distribuam as falas entre todos os integrantes; cada pessoa deve aparecer e falar.
 - Atualize a URL no roteiro depois que o serviço estiver publicado.
-- Verifique que a URL abre em uma janela sem sessão local e que `/api/cv/status` informa detector disponível.
+- No plano gratuito, abra a URL antes da gravação para acordar a instância; após 15 minutos sem acesso, a primeira abertura pode levar cerca de um minuto. Confirme que `/api/cv/status` informa detector disponível.
 - Use uma foto revisada e evite enquadrar nomes, contatos, rostos, placas ou endereços residenciais.
 - Confirme que o vídeo dura menos de cinco minutos e que as métricas aparecem com vírgula decimal ou explicação oral.
 - Inclua o vídeo e este roteiro no pacote final da disciplina.

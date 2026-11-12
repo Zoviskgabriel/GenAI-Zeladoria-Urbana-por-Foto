@@ -14,7 +14,7 @@ O detector de buracos foi treinado inicialmente com uma amostra anotada do RDD20
 
 O piloto local está fechado com 20 fotos revisadas (10 com buraco, 10 sem buraco) e 11 caixas confirmadas pela equipe. A avaliação está em `evidence/cv_local/validation/`; com essa amostra pequena e o desempenho observado, apresente-a como exploratória. Veja o [guia e a avaliação](data/local_pilot/README.md). Fotos locais e rótulos reais ficam fora do Git por padrão.
 
-A configuração de publicação está em [`../render.yaml`](../render.yaml) e usa o serviço `zela-gs26-buraco-demo`. A URL `https://zela-gs26-buraco-demo.onrender.com` só existirá depois que o serviço for criado no Render. A publicação requer uma instância de 2 GB para o modelo PyTorch; o serviço ainda não foi criado.
+A configuração gratuita está em [`../render.yaml`](../render.yaml) e usa ONNX Runtime em CPU para caber no plano Render Free (512 MB). O endereço previsto é `https://zela-gs26-buraco-demo.onrender.com`, ainda pendente de criação no Render. No plano gratuito, o serviço pode dormir após 15 minutos sem acesso e os relatos do SQLite podem ser apagados ao reiniciar. Nenhum plano pago é necessário para a demonstração.
 
 ## Robotic Process Automation
 

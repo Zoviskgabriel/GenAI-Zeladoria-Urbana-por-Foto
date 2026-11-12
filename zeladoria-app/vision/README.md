@@ -64,6 +64,17 @@ As imagens e os JSONs serão salvos em `evidence/generated/`; copie para a pasta
 
 Para repetir com exatamente o mesmo ambiente, registrem a versão instalada de Ultralytics e PyTorch no README da entrega. O ponto de partida `yolo11n.pt` é o modelo nano oficial; ele é inicializado com pesos públicos e ajustado para detectar buracos. O guia oficial documenta o formato YOLO e o fluxo de ajuste fino: [YOLO11](https://docs.ultralytics.com/models/yolo11), [detecção e treino](https://docs.ultralytics.com/tasks/detect/) e [formato do conjunto](https://docs.ultralytics.com/datasets/detect/).
 
+## Exportar ONNX para hospedagem gratuita
+
+A versão PyTorch `models/best.pt` é mantida para treino e avaliação. Para o serviço Render Free, a inferência usa `models/best.onnx` e ONNX Runtime, sem carregar PyTorch no servidor. Exporte localmente com:
+
+```powershell
+.venv\Scripts\python.exe -m pip install -r requirements-export.txt
+.venv\Scripts\python.exe vision\export_onnx.py
+```
+
+A API aceita os dois formatos. O Render usa `requirements-deploy.txt` com ONNX Runtime, NumPy e Pillow. O plano gratuito oferece 512 MB de RAM e suspende a instância após 15 minutos sem tráfego; relatos no disco local são temporários.
+
 ## Ligar os pesos ao MVP
 
 Copie ou mantenha `best.pt` localmente e inicie o servidor com:
