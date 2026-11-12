@@ -14,7 +14,7 @@ O detector de buracos foi treinado inicialmente com uma amostra anotada do RDD20
 
 O piloto local está fechado com 20 fotos revisadas (10 com buraco, 10 sem buraco) e 11 caixas confirmadas pela equipe. A avaliação está em `evidence/cv_local/validation/`; com essa amostra pequena e o desempenho observado, apresente-a como exploratória. Veja o [guia e a avaliação](data/local_pilot/README.md). Fotos locais e rótulos reais ficam fora do Git por padrão.
 
-A configuração em [`../render.yaml`](../render.yaml) solicita o plano Render Free e usa ONNX Runtime em CPU. A URL pública [zela-gs26-buraco-demo.onrender.com](https://zela-gs26-buraco-demo.onrender.com) está ativa; `GET /api/cv/status` respondeu HTTP 200 com o detector disponível em 12/11/2026. No plano gratuito, a instância dorme após 15 minutos sem acesso e desperta na próxima visita; a primeira abertura pode levar cerca de um minuto. Relatos do SQLite podem ser apagados ao reiniciar. Confirme o plano Compute no painel Render antes da entrega.
+A configuração em [`../render.yaml`](../render.yaml) solicita o plano Render Free e usa ONNX Runtime em CPU. A URL pública [zela-gs26-buraco-demo.onrender.com](https://zela-gs26-buraco-demo.onrender.com) está ativa; `GET /api/cv/status` respondeu HTTP 200 com o detector disponível em 12/11/2026. No plano gratuito, a instância dorme após 15 minutos sem acesso e desperta na próxima visita; a primeira abertura pode levar cerca de um minuto. Relatos do SQLite podem ser apagados ao reiniciar. O plano Compute Free foi confirmado pela equipe no painel Render em 12/11/2026.
 
 ## Robotic Process Automation
 

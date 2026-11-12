@@ -103,7 +103,7 @@ Campos usados pela visão computacional: `cv_label`, `cv_confidence`, `cv_model`
 - [x] Equipe revisou e confirmou as 11 caixas das 20 fotos locais; avaliação local registrada como exploratória.
 - [x] Preparar roteiro de vídeo de até cinco minutos para Visão Computacional.
 - [x] Publicar o app em https://zela-gs26-buraco-demo.onrender.com; `/api/cv/status` respondeu HTTP 200 com detector disponível em 12/11/2026.
-- [ ] Confirmar no painel Render que o Compute Plan do serviço está como Free.
+- [x] Confirmar no painel Render que o Compute Plan do serviço está como Free (12/11/2026).
 - [ ] Gravar e publicar o vídeo de até cinco minutos com a participação de todos os integrantes.
 - [ ] Notebook-base de GenAI e API.
 - [x] Integrado o pacote Big Data do Joseh sem editar os arquivos originais; criado Compose local adaptado à estrutura do app.
