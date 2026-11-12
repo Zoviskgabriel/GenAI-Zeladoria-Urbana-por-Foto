@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: zela-gs26-buraco-demo
+    runtime: python
+    rootDir: zeladoria-app
+    region: ohio
+    plan: 1c-2g
+    buildCommand: >-
+      python -m pip install torch==2.11.0 torchvision==0.26.0
+      --index-url https://download.pytorch.org/whl/cpu
+      && python -m pip install -r requirements-cv.txt
+    startCommand: python app.py
+    healthCheckPath: /api/cv/status
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: CV_MODEL_PATH
+        value: models/best.pt
+      - key: CV_CONFIDENCE
+        value: "0.35"

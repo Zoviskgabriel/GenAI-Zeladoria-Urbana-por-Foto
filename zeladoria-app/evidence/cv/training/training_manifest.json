@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-11-10T20:28:36-03:00",
+  "dataset_yaml": "data/processed/rdd2022_buraco/data.yaml",
+  "base_model": "data\\raw\\yolo11n.pt",
+  "best_weights": "models/best.pt",
+  "app_model": "models/best.pt",
+  "epochs_requested": 30,
+  "image_size": 640,
+  "batch": 8,
+  "workers": 0,
+  "seed": 42,
+  "device": "0",
+  "python": "3.12.14",
+  "torch": "2.11.0+cu126",
+  "ultralytics": "8.4.209",
+  "cuda_available": true,
+  "run_directory": "runs/detect/rdd2022-buraco"
+}

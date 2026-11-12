@@ -1,4 +1,4 @@
-"""Optional one-class pothole detector used by the MVP API."""
+"""Detector opcional de buracos usado pela API do MVP."""
 
 from __future__ import annotations
 
@@ -61,7 +61,7 @@ def _class_names(model: Any) -> dict[int, str]:
 
 
 def predict_image(image_bytes: bytes) -> dict[str, Any]:
-    """Run the configured pothole model; never substitutes a generic model."""
+    """Executa o modelo configurado para detectar buracos."""
     path = configured_model_path()
     if not path.is_file():
         return {"available": False, "message": status()["message"]}
@@ -78,12 +78,12 @@ def predict_image(image_bytes: bytes) -> dict[str, Any]:
     target_ids = {
         index
         for index, name in names.items()
-        if name.strip().casefold() in {"pothole", "buraco", "dano_na_pista", "road_damage"}
+        if name.strip().casefold() in {"buraco", "dano_na_pista", "road_damage"}
     }
     if not target_ids:
         return {
             "available": False,
-            "message": "O arquivo configurado não identifica a classe pothole/buraco.",
+            "message": "O arquivo configurado não identifica a classe de buraco.",
         }
 
     result = model.predict(
@@ -103,7 +103,7 @@ def predict_image(image_bytes: bytes) -> dict[str, Any]:
                 continue
             detections.append(
                 {
-                    "label": names[class_id],
+                    "label": "buraco",
                     "confidence": round(float(score), 4),
                     "box": {"x1": round(float(box[0]), 1), "y1": round(float(box[1]), 1),
                             "x2": round(float(box[2]), 1), "y2": round(float(box[3]), 1)},
