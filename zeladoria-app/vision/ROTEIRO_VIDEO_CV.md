@@ -20,6 +20,7 @@ Use uma das 20 fotos revisadas do piloto, sem rostos, placas ou dados pessoais v
 
 ## Conferência antes de gravar
 
+- Distribuam as falas entre todos os integrantes; cada pessoa deve aparecer e falar.
 - Atualize a URL no roteiro depois que o serviço estiver publicado.
 - Verifique que a URL abre em uma janela sem sessão local e que `/api/cv/status` informa detector disponível.
 - Use uma foto revisada e evite enquadrar nomes, contatos, rostos, placas ou endereços residenciais.

@@ -2,7 +2,7 @@
 
 Foram copiadas 20 imagens das pastas `Downloads/buraco` e `Downloads/sem buraco`: 10 de cada grupo. As cópias estão em `images/`; os originais em Downloads foram preservados. As extensões das cópias foram normalizadas para corresponder ao formato real, sem recompressão: cinco `.jfif` para `.jpg` e três imagens PNG que estavam nomeadas como `.jpg` para `.png`. As imagens `.webp` também são aceitas pelo fluxo.
 
-Comecem com cerca de 20–30 imagens variadas, incluindo vias com buracos e trechos sem buracos. Esse conjunto é uma conferência inicial, não uma avaliação estatística conclusiva.
+Este piloto está fechado em 20 fotos variadas: 10 com buraco e 10 sem buraco. A amostra é uma conferência inicial, não uma avaliação estatística conclusiva.
 
 O arquivo `annotations.csv` contém os rótulos de imagem (`sim` ou `nao`) indicados pelas pastas de origem e 11 caixas nas imagens positivas. A equipe revisou e confirmou as caixas. O piloto fica fechado com estas 20 fotos; não serão adicionadas outras. Evitem incluir rostos, placas e outros dados pessoais nas imagens.
 
