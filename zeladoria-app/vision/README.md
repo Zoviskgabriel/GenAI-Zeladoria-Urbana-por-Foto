@@ -73,7 +73,7 @@ A versão PyTorch `models/best.pt` é mantida para treino e avaliação. Para o 
 .venv\Scripts\python.exe vision\export_onnx.py
 ```
 
-A API aceita os dois formatos. O Render usa `requirements-deploy.txt` com ONNX Runtime, NumPy e Pillow. O plano gratuito oferece 512 MB de RAM e suspende a instância após 15 minutos sem tráfego; relatos no disco local são temporários.
+A API aceita os dois formatos. O Render usa `requirements-deploy.txt` com ONNX Runtime, NumPy e Pillow. O plano gratuito oferece 512 MB de RAM e dorme após 15 minutos sem tráfego; a mesma URL desperta o serviço na próxima visita, podendo levar cerca de um minuto. Relatos no disco local são temporários.
 
 ## Ligar os pesos ao MVP
 
