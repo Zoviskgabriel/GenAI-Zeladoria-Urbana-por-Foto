@@ -11,8 +11,12 @@ from pathlib import Path
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", type=Path, required=True, help="Caminho para best.pt")
-    parser.add_argument("--data", type=Path, default=Path("data/processed/rdd2022_pothole/data.yaml"))
-    parser.add_argument("--project", type=Path, default=Path("evidence/cv"))
+    parser.add_argument("--data", type=Path, default=Path("data/processed/rdd2022_buraco/data.yaml"))
+    parser.add_argument(
+        "--project",
+        type=Path,
+        default=Path(__file__).resolve().parent.parent / "evidence" / "cv",
+    )
     args = parser.parse_args()
 
     if not args.model.is_file():
@@ -25,7 +29,17 @@ def main() -> None:
         raise SystemExit("Instale requirements-cv.txt antes de avaliar.") from exc
 
     model = YOLO(str(args.model.resolve()))
-    results = model.val(data=str(args.data.resolve()), plots=True, save_json=True, project=str(args.project), name="validation", exist_ok=True)
+    project_path = args.project
+    if not project_path.is_absolute():
+        project_path = Path(__file__).resolve().parent.parent / project_path
+    results = model.val(
+        data=str(args.data.resolve()),
+        plots=True,
+        save_json=True,
+        project=str(project_path.resolve()),
+        name="validation",
+        exist_ok=True,
+    )
     metrics = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "weights": str(args.model.resolve()),

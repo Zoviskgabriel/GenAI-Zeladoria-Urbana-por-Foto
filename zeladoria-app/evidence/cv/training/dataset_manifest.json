@@ -1,0 +1,25 @@
+{
+  "source": "RDD2022 official Pascal VOC training annotations",
+  "source_url": "https://doi.org/10.6084/m9.figshare.21431547.v1",
+  "target_class": "D40 / buraco",
+  "source_annotations": "Pascal VOC XML; non-D40 boxes discarded",
+  "training_format": "YOLO normalized xywh (class x_center y_center width height)",
+  "split_strategy": "deterministic 80/20 group split by sequence prefix",
+  "seed": 42,
+  "image_count": {
+    "train": 3711,
+    "val": 1289
+  },
+  "positive_image_count": {
+    "train": 2631,
+    "val": 1043
+  },
+  "buraco_instance_count": {
+    "train": 4573,
+    "val": 1971
+  },
+  "max_images": 5000,
+  "source_archive_bytes": 13264172619,
+  "source_archive_md5": "b62bd51d2ffcfaa76c60f234f0cc2bb3",
+  "note": "This is a project subset and custom validation split, not the official CRDDC challenge split."
+}

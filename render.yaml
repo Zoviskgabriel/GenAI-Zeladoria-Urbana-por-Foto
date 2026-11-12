@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: zela-gs26-buraco-demo
+    runtime: python
+    rootDir: zeladoria-app
+    region: ohio
+    plan: free
+    buildCommand: python -m pip install -r requirements-deploy.txt
+    startCommand: python app.py
+    healthCheckPath: /api/cv/status
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: CV_MODEL_PATH
+        value: models/best.onnx
+      - key: CV_CONFIDENCE
+        value: "0.35"

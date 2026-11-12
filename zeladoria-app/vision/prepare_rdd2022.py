@@ -1,7 +1,7 @@
-"""Convert RDD2022 Pascal VOC annotations to a one-class YOLO dataset.
+"""Converte anotações Pascal VOC do RDD2022 para um conjunto YOLO de buracos.
 
 The script keeps all labeled images (including images without D40 annotations)
-and retains only D40/pothole boxes. It copies source images and never edits the
+and retains only D40 (buraco) boxes. It copies source images and never edits the
 downloaded dataset.
 """
 
@@ -111,7 +111,7 @@ def split_records(records: list[dict], fraction: float, seed: int) -> tuple[list
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", required=True, type=Path, help="Pasta extraída do RDD2022")
-    parser.add_argument("--output", type=Path, default=Path("data/processed/rdd2022_pothole"))
+    parser.add_argument("--output", type=Path, default=Path("data/processed/rdd2022_buraco"))
     parser.add_argument("--val-fraction", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-images", type=int, default=0, help="Limite opcional; 0 usa todas as imagens anotadas")
@@ -183,13 +183,13 @@ def main() -> None:
 
     yaml_root = output.as_posix().replace('"', '\\"')
     (output / "data.yaml").write_text(
-        f'path: "{yaml_root}"\ntrain: images/train\nval: images/val\nnames:\n  0: pothole\n',
+        f'path: "{yaml_root}"\ntrain: images/train\nval: images/val\nnames:\n  0: buraco\n',
         encoding="utf-8",
     )
     manifest = {
         "source": "RDD2022 official Pascal VOC training annotations",
         "source_directory": str(source),
-        "target_class": "D40 / pothole",
+        "target_class": "D40 / buraco",
         "source_annotations": "Pascal VOC XML; all non-D40 boxes discarded",
         "training_format": "YOLO normalized xywh (class x_center y_center width height)",
         "split_strategy": "deterministic 80/20 group split by RDD-style sequence prefix; image-level fallback if fewer than two groups exist",
@@ -197,13 +197,13 @@ def main() -> None:
         "requested_validation_fraction": args.val_fraction,
         "image_count": {"train": len(train_rows), "val": len(val_rows)},
         "positive_image_count": positive_counts,
-        "pothole_instance_count": instance_counts,
+        "buraco_instance_count": instance_counts,
         "unpaired_annotation_count": len(missing),
         "unpaired_annotations_sample": missing[:20],
         "max_images": args.max_images,
     }
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-    print(json.dumps({k: manifest[k] for k in ("image_count", "positive_image_count", "pothole_instance_count", "unpaired_annotation_count")}, indent=2))
+    print(json.dumps({k: manifest[k] for k in ("image_count", "positive_image_count", "buraco_instance_count", "unpaired_annotation_count")}, indent=2))
     print(f"Dataset YAML: {output / 'data.yaml'}")
 
 

@@ -1,4 +1,4 @@
-"""Render a small visual audit of converted YOLO pothole labels."""
+"""Gera uma conferência visual das marcações de buracos convertidas para YOLO."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data-root", type=Path, default=Path("data/processed/rdd2022_pothole"))
+    parser.add_argument("--data-root", type=Path, default=Path("data/processed/rdd2022_buraco"))
     parser.add_argument("--split", choices=("train", "val"), default="val")
     parser.add_argument("--limit", type=int, default=12)
     parser.add_argument("--output", type=Path, default=Path("evidence/generated/conversion_preview"))
@@ -42,9 +42,9 @@ def main() -> None:
                 x2 = (xc + bw / 2) * image.width
                 y2 = (yc + bh / 2) * image.height
                 draw.rectangle((x1, y1, x2, y2), outline="#ff2879", width=max(2, image.width // 500))
-                draw.text((x1 + 3, max(0, y1 - 14)), "D40 pothole", fill="white", stroke_width=2, stroke_fill="#920d43", font=font)
+                draw.text((x1 + 3, max(0, y1 - 14)), "D40 · buraco", fill="white", stroke_width=2, stroke_fill="#920d43", font=font)
                 boxes += 1
-        banner = f"{args.split.upper()} · {boxes} pothole box(es)"
+        banner = f"{args.split.upper()} · {boxes} caixa(s) de buraco"
         draw.rectangle((0, 0, image.width, 24), fill="#181a20")
         draw.text((8, 5), banner, fill="white", font=font)
         output_path = args.output / f"{args.split}_{index:03d}_{path.stem}.jpg"

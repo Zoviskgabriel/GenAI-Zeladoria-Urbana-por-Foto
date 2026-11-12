@@ -4,5 +4,13 @@ __pycache__/
 .env
 data/*.db
 data/*.db-*
+data/raw/
+data/processed/
+data/local_pilot/images/*
+!data/local_pilot/images/.gitkeep
+data/local_pilot/annotations.csv
+evidence/cv_local/validation/val_batch*_labels.jpg
+evidence/cv_local/validation/val_batch*_pred.jpg
+evidence/cv_local/validation/predictions.json
 uploads/*
 !uploads/.gitkeep
